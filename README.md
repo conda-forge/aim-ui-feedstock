@@ -1,11 +1,11 @@
-About aim-ui
-============
+About aim-ui-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aim-ui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/aim-ui/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aim-ui-feedstock/blob/main/LICENSE.txt)
 
 Summary: Aim UI
 
