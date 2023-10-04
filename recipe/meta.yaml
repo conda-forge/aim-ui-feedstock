@@ -1,5 +1,5 @@
 {% set name = "aim-ui" %}
-{% set version = "3.17.5" %}
+{% set version = "4.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aim-ui-{{ version }}.tar.gz
-  sha256: 55512150ba9d47e80f97067cc24e65eaf0952f328019372fbe6e752e0ac225ab
+  sha256: 2f0cc1522b035478bff29444b8a9a5da1de2d43c46cee00e532b5b8a6787da75
 
 build:
   noarch: python
