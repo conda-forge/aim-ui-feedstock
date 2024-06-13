@@ -1,5 +1,5 @@
 {% set name = "aim-ui" %}
-{% set version = "3.17.5" %}
+{% set version = "3.20.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aim-ui-{{ version }}.tar.gz
-  sha256: 55512150ba9d47e80f97067cc24e65eaf0952f328019372fbe6e752e0ac225ab
+  sha256: 4e8c7dfe9a2b5031390c07309c47d1175e045c777fbf54c7c235dacd73988df3
 
 build:
   noarch: python
@@ -37,5 +37,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - hadim
     - gorarakelyan
+    - synapticarbors
