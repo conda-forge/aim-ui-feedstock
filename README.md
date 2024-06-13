@@ -144,6 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@gorarakelyan](https://github.com/gorarakelyan/)
-* [@hadim](https://github.com/hadim/)
 * [@synapticarbors](https://github.com/synapticarbors/)
 
