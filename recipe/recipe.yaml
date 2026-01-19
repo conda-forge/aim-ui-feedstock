@@ -1,0 +1,44 @@
+schema_version: 1
+
+context:
+  name: aim-ui
+  version: 3.29.1
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/aim-ui-${{ version }}.tar.gz
+  sha256: bc30278acad048a087f84e3f6e2565f53f75e87d8c29748c90420ec06b820113
+
+build:
+  number: 0
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  host:
+    - python ${{ python_min }}.*
+    - pip
+    - setuptools
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - aim_ui
+      pip_check: true
+      python_version: ${{ python_min }}.*
+
+about:
+  summary: Aim UI
+  license: Apache-2.0
+  license_file: LICENSE
+  homepage: https://pypi.org/project/aim-ui/
+
+extra:
+  recipe-maintainers:
+    - gorarakelyan
+    - synapticarbors
